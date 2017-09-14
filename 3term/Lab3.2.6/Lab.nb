@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     22108,        552]
-NotebookOptionsPosition[     21314,        522]
-NotebookOutlinePosition[     21799,        543]
-CellTagsIndexPosition[     21721,        538]
+NotebookDataLength[     21808,        541]
+NotebookOptionsPosition[     21247,        519]
+NotebookOutlinePosition[     21584,        534]
+CellTagsIndexPosition[     21541,        531]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -515,13 +515,10 @@ Cell[BoxData["11.195989978529319`"], "Output",
  CellChangeTimes->{
   3.7143260410692663`*^9, 3.714332034113488*^9, 3.71433207131369*^9, 
    3.7143341497945423`*^9, {3.71433482270037*^9, 3.714334869496991*^9}}]
-}, Open  ]],
-
-Cell["", "SlideShowNavigationBar",
- CellTags->"SlideShowHeader"]
+}, Open  ]]
 },
 WindowSize->{1216, 907},
-WindowMargins->{{Automatic, 255}, {Automatic, 27}},
+WindowMargins->{{Automatic, 225}, {Automatic, -3}},
 FrontEndVersion->"10.4 for Linux x86 (64-bit) (April 11, 2016)",
 StyleDefinitions->"Default.nb"
 ]
@@ -529,16 +526,10 @@ StyleDefinitions->"Default.nb"
 
 (* Internal cache information *)
 (*CellTagsOutline
-CellTagsIndex->{
- "SlideShowHeader"->{
-  Cell[21246, 519, 64, 1, 74, "SlideShowNavigationBar",
-   CellTags->"SlideShowHeader"]}
- }
+CellTagsIndex->{}
 *)
 (*CellTagsIndex
-CellTagsIndex->{
- {"SlideShowHeader", 21608, 532}
- }
+CellTagsIndex->{}
 *)
 (*NotebookFileOutline
 Notebook[{
@@ -551,9 +542,7 @@ Cell[17173, 422, 1048, 23, 64, "Output"],
 Cell[18224, 447, 1619, 36, 52, "Output"],
 Cell[19846, 485, 1173, 26, 84, "Output"],
 Cell[21022, 513, 209, 3, 32, "Output"]
-}, Open  ]],
-Cell[21246, 519, 64, 1, 74, "SlideShowNavigationBar",
- CellTags->"SlideShowHeader"]
+}, Open  ]]
 }
 ]
 *)

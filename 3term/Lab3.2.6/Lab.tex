@@ -293,7 +293,7 @@ $\left(R+R_0\right)^2,~\text{Ом}^2\cdot10^8$&26,50&29,68&36,57&49,67&64,76&81,
 \medskip
 
 \begin{figure}[h]\centering
-\includegraphics[width = 0.9\textwidth]{Plot2}
+\includegraphics[width = 1\textwidth]{Plot2}
 \captionsetup{justification = centering}
 \caption{График зависимости $\frac{1}{\Theta^2}\left(\left(R_0+R\right)^2\right)$ \label{Fig4}}
 \end{figure}
@@ -326,7 +326,7 @@ R_\text{кр} \approx (8,6 \pm 0,3)\text{кОм}.
 \caption{Схема установки для работы в баллистическом режиме} \label{Fig5}
 \end{wrapfigure}
 
-\textbf{Экспериментальная установка.} Схема для измерений в баллистическом режиме представлена на рис. \ref{Fig5}. В корбке с выводами находится сложная схема с кнопками для обеспечения правильных измерений. Емкость конденсатора $C = 2~\text{мкФ}$.
+\textbf{Экспериментальная установка.} Схема для измерений в баллистическом режиме представлена на рис. \ref{Fig5}. В корбке с выводами находится сложная схема с кнопками для обеспечения правильных измерений. Емкость конденсатора $C = 2~\text{мкФ}$, $\frac{R_1}{R_2} = \frac{1}{40}$, и это отношение остается постоянным.
 
 Заряд на конденсаторе выражется формулой 
 \begin{equation}
@@ -362,7 +362,7 @@ T_0 \approx (6,43 \pm 0,02)~\text{с},
 \end{equation}
 значение следующего отклонения
 \begin{equation} 
-l_1 = 15,4~\pm0,2~\text{см}.
+l_1 \approx 15,4~\pm0,2~\text{см}.
 \end{equation}
 Отсюда по определению
 \begin{equation}
@@ -370,7 +370,7 @@ l_1 = 15,4~\pm0,2~\text{см}.
 \end{equation}
 Таким образом, из (\ref{lmax0}) получим
 \begin{equation}
-{l_\text{max}}_0 = (23,1\pm0,2)~\text{см}.\label{lmax0val}
+{l_\text{max}}_0 \approx (23,1\pm0,2)~\text{см}.\label{lmax0val}
 \end{equation}
 Погрешность была вычислена по формуле
 \begin{equation}
@@ -405,11 +405,6 @@ $\frac{1}{R + R_0},~\text{Ом}^{-1}\cdot10^{-5}$&1.98&2.47&2.82&3.28&3.93&4.88&
 \end{equation}
 погрешность измерения сопротивления считаем малой.
 По этим данным построим график зависимости $l_\text{max}\left(\frac{1}{R+R_0}\right)$, он изображен на рис. \ref{Fig6}.
-\begin{figure}[ht]\centering
-\includegraphics[width = 0.9\textwidth]{Plot3}
-\captionsetup{justification = centering}
-\caption{График зависимости $l_\text{max}\left(\frac{1}{R+R_0}\right)$\label{Fig6}} 
-\end{figure}
 
 Хотя при больших $R$ зависимость действительно линейна, на всем измеренном диапазоне она хорошо аппроксимируется зависимостью вида $a\sqrt{x} + bx + c$ (такое фитирование и представлено на рис. \ref{Fig6}). Зная ${l_\text{max}}_\text{кр}$, находим точку, которая соответствует такому отклонению, это точка
 \begin{equation}
@@ -417,12 +412,26 @@ G = \frac{1}{R + R_0} \approx (11,1\pm0,3)~\text{Ом}^{-1}\cdot10^{-5},
 \end{equation}
 погрешность была оценена по крайним значениям. Отсюда, т.к. эта точка критическая, находим $R_\text{кр}$:
 \begin{equation}
-R_\text{кр} = \frac{1}{G} - R_0 \approx 8,5 \pm 0,3~\text{кОм}.
+R_\text{кр} = \frac{1}{G} - R_0 \approx 8,5 \pm 0,3~\text{кОм},
 \end{equation}
-Погрешность была надена по формуле
+погрешность была надена по формуле
 \begin{equation}
 \Delta R_\text{кр} = R_\text{кр}\frac{\Delta G}{G}.
 \end{equation}
+Осталось найти ${C_Q}_\text{кр}$ из выражения (\ref{cqcr}), получим
+\begin{equation}
+{C_Q}_\text{кр} = (1,98 \pm 0,04) \cdot 10^{-6}~\text{Кл},
+\end{equation}
+выражение для погрешности: 
+\begin{equation}
+\Delta {C_Q}_\text{кр} = {C_Q}_\text{кр}\sqrt{\left(\frac{\Delta U}{U}\right)^2 + \left(\frac{\Delta {l_\text{max}}_\text{кр}}{{l_\text{max}}_\text{кр}}\right)^2 + \left(\frac{\Delta a}{a}\right)^2}
+\end{equation}
+
+\begin{figure}[ht]\centering
+\includegraphics[width = 1\textwidth]{Plot3}
+\captionsetup{justification = centering}
+\caption{График зависимости $l_\text{max}\left(\frac{1}{R+R_0}\right)$\label{Fig6}} 
+\end{figure}
 
 Ранее в этой части был измерен $T_0$. Сравним его с величиной $R_0C$:
 \begin{equation}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.9.6)  14 SEP 2017 03:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.9.6)  14 SEP 2017 12:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -879,7 +879,7 @@ Package pdftex.def Info: Plot1.png used on input line 202.
 File: Plot2.png Graphic file (type png)
  <use Plot2.png>
 Package pdftex.def Info: Plot2.png used on input line 296.
-(pdftex.def)             Requested size: 460.93153pt x 248.90445pt.
+(pdftex.def)             Requested size: 512.14963pt x 276.56969pt.
  [5]
 [6 <./Plot2.png (PNG copy)>] <Sch2.png, id=43, 249.8133pt x 94.6737pt>
 File: Sch2.png Graphic file (type png)
@@ -887,13 +887,13 @@ File: Sch2.png Graphic file (type png)
 <use Sch2.png>
 Package pdftex.def Info: Sch2.png used on input line 324.
 (pdftex.def)             Requested size: 240.71094pt x 91.22374pt.
- [7 <./Sch2.png>] <Plot3.png, id=49, 1003.75pt x 487.8225pt>
+ [7 <./Sch2.png>] [8] <Plot3.png, id=53, 1003.75pt x 487.8225pt>
 File: Plot3.png Graphic file (type png)
 
 <use Plot3.png>
-Package pdftex.def Info: Plot3.png used on input line 409.
-(pdftex.def)             Requested size: 460.93153pt x 224.014pt.
- [8] [9 <./Plot3.png (PNG copy)>] (./Lab.aux) ) 
+Package pdftex.def Info: Plot3.png used on input line 431.
+(pdftex.def)             Requested size: 512.14963pt x 248.91272pt.
+ [9 <./Plot3.png (PNG copy)>] (./Lab.aux) ) 
 Here is how much of TeX's memory you used:
  5575 strings out of 493013
  75058 string characters out of 6135683
@@ -901,23 +901,23 @@ Here is how much of TeX's memory you used:
  9004 multiletter control sequences out of 15000+600000
  15631 words of font info for 41 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,12n,39p,1078b,327s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvip
-s/cm-super/cm-super-t2a.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pf
-b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/
-share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/te
-xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-d
-ist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texmf/fonts/type
-1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sf
-bx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1728.pfb></usr/sha
-re/texmf/fonts/type1/public/cm-super/sfrm0600.pfb></usr/share/texmf/fonts/type1
-/public/cm-super/sfrm0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfr
-m1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1200.pfb>
-Output written on Lab.pdf (9 pages, 464567 bytes).
+ 39i,12n,39p,1078b,323s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/cm
+-super/cm-super-t2a.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8
+.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></
+usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texmf/fonts/type1/pu
+blic/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx14
+40.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/t
+exmf/fonts/type1/public/cm-super/sfrm0600.pfb></usr/share/texmf/fonts/type1/pub
+lic/cm-super/sfrm0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm120
+0.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1200.pfb>
+Output written on Lab.pdf (9 pages, 465499 bytes).
 PDF statistics:
  109 PDF objects out of 1000 (max. 8388607)
  72 compressed objects within 1 object stream
